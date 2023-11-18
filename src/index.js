@@ -11,12 +11,7 @@ const theme = {
     blues: '#63A2D8',
     greens: '#259D58',
     grays: '#AEBECD',
-  },
-
-  radii: {
-    sm: '2px',
-    md: '4px',
-    lg: '16px',
+    black: '#212121',
   },
 };
 

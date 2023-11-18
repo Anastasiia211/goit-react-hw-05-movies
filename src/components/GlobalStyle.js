@@ -25,6 +25,9 @@ h6 {
 #root {
         margin: 20px;
     }
+a{
+  text-decoration: none;
+}
 
 p {
   margin-bottom: 10px;
@@ -34,6 +37,13 @@ p {
 link {
   text-decoration: none;
 }
+img{
+display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 ul {
   margin-top: 0;
@@ -76,19 +86,8 @@ body {
   margin: 0;
 }
  input {
-        padding: 5px 15px;
-        border: 1px solid var(--black);
-        color: var(--black);
-        font-size: 18px;
-        line-height: 1;
-        outline: none;
-        height: calc(1em + 1.6em + 0.5em);
-        width: 100%;
-        background-color:  var( --background-section);
-        background-origin: border-box;
-        background-clip: padding-box, border-box;
-        background-size: 200% 100%;
-        transition: background-position 0.8s ease-out;
+    padding: 5px 10px;
+    border-radius: 5px;
     }
 
 

@@ -32,8 +32,7 @@ export const SearchMovie = ({ onSubmit, handleChange }) => {
               className="input"
               type="text"
               placeholder="Search movie"
-              //value={title}
-              //onChange={handleChange}
+        
             />
             <ErrMessage name="search" component="div" />
             <button type="submit" className="button">

@@ -8,8 +8,7 @@ export const Layout = () => {
        <>
       <Header>
         <HeaderTop>
-        <Container>
-        <p>Best movie finder ever</p>   
+        <Container> 
         </Container>
         </HeaderTop>
 

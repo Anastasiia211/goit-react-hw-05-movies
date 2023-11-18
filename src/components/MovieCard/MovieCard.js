@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { Card } from 'react-ui';
+import { Card } from './MovieCard.styled';
 
 
 export const MovieCard = ({ data }) => {
@@ -19,7 +19,7 @@ export const MovieCard = ({ data }) => {
                 alt={data.title}
                 width={350}
             />
-            <div className="text-box">
+            <div className="info-card">
                 <h1>
                     {data.title} ({year[0]})
                 </h1>
@@ -28,7 +28,7 @@ export const MovieCard = ({ data }) => {
                 </p>
                 <p>{data.overview}</p>
                 <div>
-                    <p className="box-title">
+                    <p className="info-title">
                         <strong>Genres:</strong>
                     </p>
                     <ul>
@@ -41,7 +41,7 @@ export const MovieCard = ({ data }) => {
                 </div>
 
                 <div>
-                    <p className="box-title">
+                    <p className="info-title">
                         <strong>Languages:</strong>
                     </p>
                     <ul>
@@ -54,7 +54,7 @@ export const MovieCard = ({ data }) => {
                 </div>
 
                 <div>
-                    <p className="box-title">
+                    <p className="info-title">
                         <strong>Production countries:</strong>
                     </p>
                     <ul>
