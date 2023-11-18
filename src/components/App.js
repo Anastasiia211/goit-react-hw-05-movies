@@ -1,5 +1,4 @@
-
-import { Layout } from './Layout/';
+import { Layout } from './Layout/Layout';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { lazy } from 'react';
 
@@ -7,8 +6,8 @@ import { lazy } from 'react';
 const HomePage = lazy(() => import('pages/HomePage'));
 const MovieDetails = lazy(() => import('pages/MovieDetails'));
 const MoviesPage = lazy(() => import('pages/MoviesPage'));
-const MovieCredits = lazy(() => import('./MovieCredits/'));
-const MovieReviews = lazy(() => import('./MovieReviews/'));
+const MovieCredits = lazy(() => import('./MovieCredits/MovieCredits'));
+const MovieReviews = lazy(() => import('./MovieReviews/MovieReviews'));
 
 export const App = () => {
   return (

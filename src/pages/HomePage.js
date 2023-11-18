@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { RotatingSquare } from 'react-loader-spinner';
-import { MovieList } from './MovieList';
-import { fetchMovies } from '..api/';
+import { MovieList } from '../components/MovieList/MovieList';
+import { fetchMovies } from '../api';
 
 export default function HomePage() {
     const [movies, setMovies] = useState([]);
@@ -46,8 +46,6 @@ export default function HomePage() {
             ) : (
                 <p>Error! Please reload this page!</p>
             )}
-            
-          
-        </>
+            </>
     );
 }
